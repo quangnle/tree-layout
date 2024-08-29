@@ -7,6 +7,7 @@ function setup() {
 
 function draw() {
     background(255);
+    rect(0, 0, width - 1, height - 1);
     tree.draw();
 }
 

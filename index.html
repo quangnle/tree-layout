@@ -1,12 +1,17 @@
 <html>
 	<head>
 		<title>Auto Hierrachical Graph Layout</title>
+        <script>
+            //prevent default right click
+            document.addEventListener('contextmenu', event => event.preventDefault());
+        </script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js" integrity="sha512-lvddmeF7aHRJwdbJeYThWd5kWSjTrXBzCRF/jYROiHzmhMJ1dEXfGH5Q7ft0yhizXTopAETG03s5ajTflauijA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="treenode.js"></script>
         <script src="tree.js"></script>
 		<script src="sketch.js"></script>
 	</head>
 	<body>
-				
+        <p>A simple tree layout</p>
+		<p>Left lick on a node to add more node, right click to delete.</p>		
 	</body>
 </html>
